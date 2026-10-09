@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "IEADEN",
+    "slug": "ieaden",
+    "scheme": "ieaden",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "br.com.ieaden.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "IEADEN - Assembleia de Deus em Nazária",
+      "shortName": "IEADEN",
+      "description": "Agenda de eventos da Igreja Evangélica Assembleia de Deus em Nazária – PI.",
+      "themeColor": "#1E3A8A",
+      "backgroundColor": "#F5F7FB"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "290793af-f6ca-418e-a434-a9437e48c2cd"
+      }
+    },
+    "owner": "thiago_di"
+  }
+}

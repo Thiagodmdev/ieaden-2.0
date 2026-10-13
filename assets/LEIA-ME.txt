@@ -1,0 +1,10 @@
+Ícones preparados para o projeto Expo IEADEN.
+
+Copie icon.png, adaptive-icon.png e favicon.png para a pasta assets/ do projeto.
+No app.json, configure:
+  "icon": "./assets/icon.png"
+  "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0B1F4E" } }
+  "web": { "favicon": "./assets/favicon.png" }
+
+Mantenha os demais campos que já existem no seu app.json, inclusive package, owner e extra.eas.projectId.
+Depois gere um novo APK com seu comando EAS habitual.

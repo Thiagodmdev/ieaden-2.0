@@ -6,8 +6,13 @@
     "version": "2.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "android": {
-      "package": "br.com.ieaden.app"
+      "package": "br.com.ieaden.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1F4E"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -16,7 +21,8 @@
       "shortName": "IEADEN",
       "description": "Agenda de eventos da Igreja Evangélica Assembleia de Deus em Nazária – PI.",
       "themeColor": "#1E3A8A",
-      "backgroundColor": "#F5F7FB"
+      "backgroundColor": "#F5F7FB",
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"

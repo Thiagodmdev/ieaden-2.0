@@ -1,0 +1,15 @@
+{
+  "name": "IEADEN - Assembleia de Deus em Nazária",
+  "short_name": "IEADEN",
+  "description": "Agenda de eventos da Igreja Evangélica Assembleia de Deus em Nazária – PI.",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/logo192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/logo512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1E3A8A",
+  "background_color": "#F5F7FB"
+}
